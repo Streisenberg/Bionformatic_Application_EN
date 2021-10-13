@@ -2,7 +2,8 @@ name: bioinformatics-app
 dependencies:
   - pip
   #Buradan aşağısı al
-  - rdkit
+  # - rdkit
+  - conda-forge
   - seaborn
   - scipy
   - neatbio
