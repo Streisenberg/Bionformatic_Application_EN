@@ -1,5 +1,5 @@
 # Bioinformatic_Website
- Turkish Bioinformatics App
+ Bioinformatics App
 
 The deployed web app **_will_** live at https://bioinformatics-app.herokuapp.com/
 
