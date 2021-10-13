@@ -1,4 +1,0 @@
-rdkit
-seaborn
-scipy
-neatbio

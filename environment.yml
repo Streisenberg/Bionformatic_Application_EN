@@ -18,7 +18,11 @@ dependencies:
   - six
   - sqlalchemy
   - nose
+  #Buradan aşağısı al
   - rdkit
+  - seaborn
+  - scipy
+  - neatbio
   - pip:
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
