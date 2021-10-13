@@ -1,5 +1,6 @@
 name: bioinformatics-app
 dependencies:
+  - pip
   #Buradan aşağısı al
   - rdkit
   - seaborn
