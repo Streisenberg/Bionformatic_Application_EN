@@ -34,6 +34,8 @@ import re
 from functions import download_button
 #import PyPDF2
 from PIL import Image
+import requests
+import requests_cache
 
 
 
