@@ -1,9 +1,9 @@
 # Bioinformatic_Website
  Bioinformatics App
 
-The deployed web app **_will_** live at https://bioinformatics-app.herokuapp.com/
+The deployed web app live at https://share.streamlit.io/streisenberg/bionformatic_application_en/bioinformatic_app.py
 
-The web app was built in Python using the following librarie:
+The web app was built in Python using the following libraries:
 - streamlit
 - pandas
 - biopython
