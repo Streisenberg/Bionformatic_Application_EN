@@ -1,7 +1,7 @@
 # Bioinformatic_Website
  Bioinformatics App
 
-The deployed web app live at https://share.streamlit.io/streisenberg/bionformatic_application_en/bioinformatic_app.py
+The deployed web app lives at https://share.streamlit.io/streisenberg/bionformatic_application_en/bioinformatic_app.py
 
 The web app was built in Python using the following libraries:
 - streamlit
