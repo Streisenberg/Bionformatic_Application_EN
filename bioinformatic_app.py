@@ -193,13 +193,16 @@ def main():
     st.title("Bioinformatic App")
 
     st.sidebar.header("Please Choose")
-    secenekler = ["Home","DNA Sequencing", "Multiple Sequence Alignment", "Sequence Scoring", "Target Protein Analysis", "Find SNP and INDEL"]
+    secenekler = ["Home","DNA Sequencing", "Multiple Sequence Alignment", "Sequence Scoring", "Target Protein Analysis"] #"Find SNP and INDEL"]
     select_box = st.sidebar.selectbox("The action you want to do: ", secenekler)
 
     if select_box == "Home":
         st.header("Welcome to the Home Page")
         st.text("")
         st.write("There will be information section in here. Please Patient (:")
+        st.text("")
+        st.text("")
+        st.write("You can still use the app from the sections in the left bar.")
         st.text("")
         st.text("")
         st.write("Made by **_Enes Daşdemir_**")
@@ -823,35 +826,6 @@ def main():
                         plt.xlabel('Bioactivity Class', fontsize=14, fontweight='bold')
                         plt.ylabel('Molecular Weight', fontsize=14, fontweight='bold')
                         st.pyplot()
-
-
-                
-            
-            
-
-    elif select_box == "Find SNP and INDEL":
-
-        align_dosya = st.sidebar.file_uploader("Upload your FASTA file", type=["FASTA","fa"])
-        
-
-        y=0
-        alignment = SeqIO.read(align_dosya, "fasta")
-        for r in range(0,len(alignment[1].seq)):
-            if alignment[0,r] != alignment[1,r]:
-                if alignment[0,r] != "-" and alignment[1,r] != "-":
-                    y=y+1
-                    st.write(r, alignment[0,r], alignment[1,r], y)
-                else:
-                    y=0
-
-
-
-    
-
-        
-
-
-
                     
 
 
