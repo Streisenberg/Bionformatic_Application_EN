@@ -199,7 +199,7 @@ def main():
     if select_box == "Home":
         st.header("Welcome to the Home Page")
         st.text("")
-        st.write("There will be information section in here. Please Patient (:")
+        st.write("I am working on this page. Stay Tuned!")
         st.text("")
         st.text("")
         st.write("You can still use the app from the sections in the left bar.")
